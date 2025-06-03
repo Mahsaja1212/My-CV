@@ -1,0 +1,161 @@
+body{
+margin-top: 0;
+font-family: 'quicksand' , sans-serif;
+background-color: #fff1f1;
+color: #4a4a4a;
+}
+.site-header{
+    background-color: #ffffff;
+    padding: 1.5rem 2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5) 
+}
+.logo{
+    font-family: 'pacifico', cursive;
+    font-size: 1.8rem;
+    color: #ff6b6b;
+}
+.logo .name {
+color: #4a4a4a;
+}
+.nav-link a {
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+.nav-link a:hover{
+color: #ff6b6b;}
+
+section{
+    padding:4rem 2rem;
+    text-align: center;
+}
+section h2 {
+font-size: 2rem;
+color: ff6b6b;
+margin-bottom: 1rem;
+}
+.intro p{
+   font-size: 1.2rem;
+   max-width: 600px;
+   margin: 1rem auto;
+   line-height: 1.8;
+}
+.about-section p{
+ max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.project-list{
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.project-list li{
+    background: #ffffff;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-left: 5px solid #ffe66d;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.projects {
+  display: inline-block;
+  background-color: #FF6B6B;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.projects :hover {
+  background-color: #e45a5a;
+}
+.post-blog {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    text-align: left;
+}
+.blog-section h3 {
+    margin-top: 0;
+    color: #ff6b6b;
+}
+
+.contact-section form{
+max-width: 500px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.contact-section input,
+.contact-section textarea{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.contact-section button{
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.contact-section button:hover {
+    background-color: #e45a5a;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+flex-direction: column;
+text-align: center;
+    }
+    .nav-link {
+        margin-top: 1rem;
+    }
+.nav-link a {
+    display: inline-block;
+    margin: 0.5rem;
+}
+}
+.main-footer {
+  background-color: var(--accent-color);
+  color: #e45a5a;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-top: 5px solid var(--highlight-color);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+}
+.footer-icons {
+  margin-top: 1rem;
+}
+.footer-icons a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #e45a5a;
+  transition: color 0.3s;
+}
+.footer-icons a:hover {
+  color: var(--highlight-color);
+}
