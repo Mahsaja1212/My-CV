@@ -19,7 +19,7 @@ A cheerful, minimal, and personal portfolio website created with love by **Mahsa
 
 
 
-[🔗 View Live Website](https://yourusername.github.io/bright-steps)
+[🔗 View Live Website](https://mahsaja1212.github.io/My-CV/)
 
 ---
 
